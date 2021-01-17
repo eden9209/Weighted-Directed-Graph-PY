@@ -103,7 +103,7 @@ def test_time3(file_name: str):
     print("* Networkx time in SCC is: ", nx_time)
     # my_graph Dijkstra time :
     my_start = datetime.datetime.now()
-    graph.shortest_path(11,152)
+    graph.shortest_path(11, 152)
     graph.shortest_path(152, 11)
     my_send = datetime.datetime.now()
     my_time = (my_send - my_start)
@@ -121,6 +121,10 @@ if __name__ == '__main__':
     str_1 = "../data/G_10_80_1.json"
     str_2 = "../data/G_100_800_1.json"
     str_3 = "../data/G_1000_8000_1.json"
+    str_4 = "../data/G_20000_160000_1.json"
+    str_5 = "../data/G_10000_80000_1.json"
     test_time1(str_1)
     test_time2(str_2)
     test_time3(str_3)
+    test_time3(str_4)
+    test_time3(str_5)
