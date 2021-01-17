@@ -5,7 +5,7 @@ from src.Vertex import Vertex
 from builtins import *
 
 
-# The Graph class contains a dictionary that maps vertex keys to Class vertex >> vertices
+# The DiGraph class contains a dictionary that maps vertex keys to Class vertex >> vertices
 # Count of the number of vertices in the graph >> numVertices
 # Count of the number of edges in the graph >> num_of_edges
 

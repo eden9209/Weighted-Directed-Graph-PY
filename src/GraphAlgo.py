@@ -215,13 +215,17 @@ class GraphAlgo(GraphAlgoInterface):
 
         fig, ax = plt.subplots()
 
-        ax.scatter(x, y, color='red', linewidths=1, s=100)  # plot the nodes in the graph in red
+        ax.scatter(x, y, color='blue', linewidths=1, s=100)  # plot the nodes in the graph in blue
         for node in self.graph.get_all_v().values():
             x1, y1 = (node.getPos()[0]), (node.getPos()[1])
-            ax.annotate(node.getKey(), (x1, y1 + 0.012), size=15)  # annotate each node with his key
+            ax.annotate(node.getKey(), (x1, y1 + 0.012), size=15)
+
             for e in self.graph.all_out_edges_of_node(node.getKey()).items():
                 item_x = self.graph.get_node(e[0]).getPos()[0]
                 item_y = self.graph.get_node(e[0]).getPos()[1]
-                ax.arrow(x1, y1, item_x - x1, item_y - y1, length_includes_head=True, color='black', head_width=0.01)
+                plt.arrow(x1, y1, 0.98 * (item_x - x1), 0.98 * (item_y - y1), length_includes_head=True,
+                          head_width=0.0004, head_length=0.0004, width=0.00001, fc='red', ec='black', zorder=1.2)
         plt.axis('off')
+        plt.grid(color='grey', linestyle=':', linewidth=0.5)
+        plt.title('Directed Weighted Graph:|V|=' + str(self.graph.v_size()) + ',' + '|E|= ' + str(self.graph.e_size()))
         plt.show()

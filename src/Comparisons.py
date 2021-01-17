@@ -19,12 +19,12 @@ def test_time1(file_name: str):
     nx_end = datetime.datetime.now()
     nx_time = (nx_end - nx_start)
     print("* Networkx time in Dijkstra  is: ", nx_time)
-    # nx SSC time :
+    # nx SCC time :
     nx_start = datetime.datetime.now()
     nx.connected_components(g_nx)
     nx_end = datetime.datetime.now()
     nx_time = (nx_end - nx_start)
-    print("* Networkx time in SSC is: ", nx_time)
+    print("* Networkx time in SCC is: ", nx_time)
     # my_graph Dijkstra time :
     my_start = datetime.datetime.now()
     graph.shortest_path(0, 9)
@@ -32,12 +32,12 @@ def test_time1(file_name: str):
     my_send = datetime.datetime.now()
     my_time = (my_send - my_start)
     print("* Graph time in Dijkstra  is: ", my_time)
-    # my_graph SSC time :
+    # my_graph SCC time :
     my_start = datetime.datetime.now()
     graph.connected_components()
     my_send = datetime.datetime.now()
     my_time = (my_send - my_start)
-    print("* Graph time in SSC  is: ", my_time)
+    print("* Graph time in SCC  is: ", my_time)
     print("#################")
 
 
@@ -57,12 +57,12 @@ def test_time2(file_name: str):
     nx_end = datetime.datetime.now()
     nx_time = (nx_end - nx_start)
     print("* Networkx time in Dijkstra  is: ", nx_time)
-    # nx SSC time :
+    # nx SCC time :
     nx_start = datetime.datetime.now()
     nx.connected_components(g_nx)
     nx_end = datetime.datetime.now()
     nx_time = (nx_end - nx_start)
-    print("* Networkx time in SSC is: ", nx_time)
+    print("* Networkx time in SCC is: ", nx_time)
     # my_graph Dijkstra time :
     my_start = datetime.datetime.now()
     graph.shortest_path(0, 9)
@@ -70,12 +70,12 @@ def test_time2(file_name: str):
     my_send = datetime.datetime.now()
     my_time = (my_send - my_start)
     print("* Graph time in Dijkstra  is: ", my_time)
-    # my_graph SSC time :
+    # my_graph SCC time :
     my_start = datetime.datetime.now()
     graph.connected_components()
     my_send = datetime.datetime.now()
     my_time = (my_send - my_start)
-    print("* Graph time in SSC  is: ", my_time)
+    print("* Graph time in SCC  is: ", my_time)
     print("#################")
 
 
@@ -95,12 +95,12 @@ def test_time3(file_name: str):
     nx_end = datetime.datetime.now()
     nx_time = (nx_end - nx_start)
     print("* Networkx time in Dijkstra  is: ", nx_time)
-    # nx SSC time :
+    # nx SCC time :
     nx_start = datetime.datetime.now()
     nx.connected_components(g_nx)
     nx_end = datetime.datetime.now()
     nx_time = (nx_end - nx_start)
-    print("* Networkx time in SSC is: ", nx_time)
+    print("* Networkx time in SCC is: ", nx_time)
     # my_graph Dijkstra time :
     my_start = datetime.datetime.now()
     graph.shortest_path(11,152)
@@ -108,12 +108,12 @@ def test_time3(file_name: str):
     my_send = datetime.datetime.now()
     my_time = (my_send - my_start)
     print("* Graph time in Dijkstra  is: ", my_time)
-    # my_graph SSC time :
+    # my_graph SCC time :
     my_start = datetime.datetime.now()
     graph.connected_components()
     my_send = datetime.datetime.now()
     my_time = (my_send - my_start)
-    print("* Graph time in SSC  is: ", my_time)
+    print("* Graph time in SCC  is: ", my_time)
     print("#################")
 
 

@@ -68,5 +68,6 @@ class Vertex:
     def get_edge_Weight(self, nbr):
         return self.connectedTo[nbr]
 
+    # Remove from the dictionary "connectedTo" the element key
     def remove_ni(self, key):
         del self.connectedTo[key]

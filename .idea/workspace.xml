@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="688d058c-b66d-4eae-a385-9490a70e53f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data/A5_edited" beforeDir="false" afterPath="$PROJECT_DIR$/data/A5_edited" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/T0.json_saved" beforeDir="false" afterPath="$PROJECT_DIR$/data/T0.json_saved" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Comparisons.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comparisons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiGraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphAlgo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphAlgo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GraphAlgoInterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphAlgoInterface.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GraphInterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphInterface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vertex.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vertex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/try.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,7 @@
       <recent name="C:\Users\edens\PycharmProjects\ex3\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Comparisons">
+  <component name="RunManager" selected="Python.Ex3_main">
     <configuration name="Comparisons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ex3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Comparisons" />
         <item itemvalue="Python.Ex3_main" />
+        <item itemvalue="Python.Comparisons" />
         <item itemvalue="Python tests.Unittests for TestGraphAlgo.TestGraphAlgo" />
         <item itemvalue="Python tests.Unittests for TestGraphAlgo.TestGraphAlgo.test_get_graph" />
         <item itemvalue="Python tests.Unittests for TestGraphAlgo.TestGraphAlgo.test_connected_components" />
