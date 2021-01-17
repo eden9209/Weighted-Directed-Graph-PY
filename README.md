@@ -56,7 +56,7 @@ Methods | Description
 *plot_graph* | *Plots the graph.* 
 
 ### Scc connected_components:<br>
-In the TestGraphAlgo there is test method of: " connected_components " AND "connected_component",<br>
+In the TestGraphAlgo there is test method of: " connected_components " , "connected_component"<br>
 of the graph below:<br>
 ![SSC](https://user-images.githubusercontent.com/73124928/104851506-0d1eec80-58fe-11eb-9c25-ccb50ab8d142.png)<br>
 ### Shortest_path:<br>
